@@ -13,8 +13,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Arnav Hooda — AI, ML & Software Engineering',
-  description: 'AI & ML engineering student at Chandigarh University. Explore Arnav Hooda’s Samsung PRISM research, software projects, and entrepreneurial work.',
+  title: 'Arnav Hooda — Applied AI, ML & Product Engineering',
+  description:
+    'Portfolio of Arnav Hooda, an AI & ML engineering student and Samsung PRISM team lead building language systems, software products, and independent ventures.',
+  keywords: [
+    'Arnav Hooda',
+    'AI engineer',
+    'machine learning',
+    'NLP',
+    'Samsung PRISM',
+    'software engineer',
+  ],
+  authors: [{ name: 'Arnav Hooda' }],
 };
 
 export default function RootLayout({
