@@ -9,6 +9,7 @@ import {
   Download,
   Mail,
   MapPin,
+  Sparkles,
 } from 'lucide-react';
 
 const linkedin = 'https://www.linkedin.com/in/arnav-hooda-87061486/';
@@ -57,111 +58,104 @@ export default function Home() {
         Skip to content
       </a>
 
-      <header className="site-header wrap">
-        <a href="#main" className="wordmark" aria-label="Arnav Hooda home">
-          arnav<span>.</span>
-        </a>
-        <nav aria-label="Main navigation">
-          <a href="#work">Work</a>
-          <a href="#about">Profile</a>
-          <a href="#expertise">Expertise</a>
-        </nav>
-        <div className="header-actions">
-          <a
-            className="icon-link"
-            href={github}
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Arnav Hooda on GitHub"
-          >
-            <Code2 size={17} />
+      <header className="site-header">
+        <div className="header-inner wrap">
+          <a href="#main" className="wordmark" aria-label="Arnav Hooda home">
+            AH<span>/26</span>
           </a>
+          <nav aria-label="Main navigation">
+            <a href="#work"><span>01</span> Work</a>
+            <a href="#about"><span>02</span> Profile</a>
+            <a href="#expertise"><span>03</span> Expertise</a>
+          </nav>
           <a className="header-contact" href={email}>
-            Let&apos;s talk <ArrowUpRight size={16} />
+            Start a conversation <ArrowUpRight size={15} />
           </a>
         </div>
       </header>
 
       <main id="main">
         <section className="hero wrap" aria-labelledby="hero-title">
-          <div className="hero-copy">
+          <div className="hero-kicker">
             <p className="eyebrow">
-              <span className="status-dot" /> OPEN TO AI/ML & SOFTWARE ROLES
+              <span className="status-dot" /> AVAILABLE FOR SELECT ROLES
             </p>
-            <h1 id="hero-title">
-              I build intelligent systems<span>—</span>
-              <br />
-              then make them useful.
-            </h1>
-            <p className="hero-intro">
-              I&apos;m <strong>Arnav Hooda</strong>, an AI & ML engineering
-              student focused on language systems, applied AI, and
-              product-minded software. I led dataset development through Samsung
-              PRISM and build across research, engineering, and
-              entrepreneurship.
-            </p>
-            <div className="hero-actions">
-              <a className="button primary" href="#work">
-                See the evidence <ArrowDown size={17} />
-              </a>
-              <a
-                className="button text-button"
-                href="/arnav-hooda-resume.pdf"
-                download
-              >
-                Resume <Download size={17} />
-              </a>
-            </div>
-            <div className="hero-location">
-              <MapPin size={14} />
-              <span>Chandigarh, India</span>
-              <span className="location-divider" /> Available for internships &
-              graduate roles
-            </div>
-            <div className="hero-proof" aria-label="Career highlights">
-              {highlights.map((highlight) => (
-                <div key={highlight.value}>
-                  <strong>{highlight.value}</strong>
-                  <span>{highlight.label}</span>
-                </div>
-              ))}
-            </div>
+            <span className="hero-index">PORTFOLIO / 2026</span>
           </div>
 
-          <div className="portrait-composition">
-            <div className="portrait-top">
-              <span>ENGINEER / RESEARCHER / BUILDER</span>
-              <span>01 / AH</span>
-            </div>
-            <div className="portrait-frame">
-              <Image
-                src="/arnav-hooda.jpg"
-                alt="Arnav Hooda wearing a navy suit"
-                width={480}
-                height={718}
-                priority
-              />
-              <div className="portrait-caption">
-                <span>Arnav Hooda</span>
-                <span>AI / ML / SOFTWARE</span>
+          <div className="hero-stage">
+            <div className="hero-copy">
+              <p className="hero-discipline">AI ENGINEER · RESEARCHER · BUILDER</p>
+              <h1 id="hero-title">
+                Building intelligence
+                <br />
+                <span>into useful things.</span>
+              </h1>
+              <div className="hero-copy-bottom">
+                <p className="hero-intro">
+                  I&apos;m <strong>Arnav Hooda</strong>. I work across language
+                  AI, machine learning, and product engineering—turning fuzzy
+                  questions into systems people can actually use.
+                </p>
+                <div className="hero-actions">
+                  <a className="button primary" href="#work">
+                    Explore my work <ArrowDown size={17} />
+                  </a>
+                  <a
+                    className="button text-button"
+                    href="/arnav-hooda-resume.pdf"
+                    download
+                  >
+                    Download résumé <Download size={17} />
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="portrait-bottom">
-              <span className="plus">+</span>
-              <span>
-                Research discipline.
-                <br />
-                Builder&apos;s instinct.
-              </span>
-              <a
-                href={linkedin}
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Arnav Hooda on LinkedIn"
-              >
-                <ArrowUpRight size={19} />
-              </a>
-            </div>
+
+            <aside className="portrait-composition" aria-label="About Arnav Hooda">
+              <div className="portrait-halo" aria-hidden="true">AH</div>
+              <div className="portrait-frame">
+                <Image
+                  src="/arnav-hooda.jpg"
+                  alt="Arnav Hooda wearing a navy suit"
+                  width={480}
+                  height={718}
+                  priority
+                />
+                <div className="portrait-status">
+                  <Sparkles size={14} />
+                  <span>Language AI / Product systems</span>
+                </div>
+              </div>
+              <div className="portrait-notes">
+                <div>
+                  <span>BASED IN</span>
+                  <strong><MapPin size={13} /> Chandigarh, India</strong>
+                </div>
+                <div>
+                  <span>FOCUS</span>
+                  <strong>Research → Product</strong>
+                </div>
+                <a
+                  href={linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Arnav Hooda on LinkedIn"
+                >
+                  <ArrowUpRight size={19} />
+                </a>
+              </div>
+            </aside>
+          </div>
+
+          <div className="hero-proof" aria-label="Career highlights">
+            {highlights.map((highlight, index) => (
+              <div key={highlight.value}>
+                <span className="proof-index">0{index + 1}</span>
+                <strong>{highlight.value}</strong>
+                <span>{highlight.label}</span>
+              </div>
+            ))}
           </div>
         </section>
 
