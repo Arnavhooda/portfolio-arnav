@@ -1,69 +1,49 @@
-# Arnav Hooda — AI/ML & Product Engineering Portfolio
+# Arnav Hooda — Frontend & AI Engineer
 
-<p align="center">
-  <a href="https://portfolio-arnav-tau.vercel.app/"><strong>View the live portfolio →</strong></a>
-</p>
+Arnav's text, résumé, portraits, and achievement photographs customized inside the existing Bhumi portfolio UI. The original `style.css` and `portfolio.css` are preserved byte for byte, including the black and lavender palette, typography, floating navigation, hero arrangement, photo galleries, project shelf, draggable achievement board, and footer.
 
-<p align="center">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-  <img alt="Vercel" src="https://img.shields.io/badge/Deployed_on_Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-</p>
-
-This repository contains my personal portfolio: a focused presentation of my applied AI research, software projects, leadership experience, and product-building work.
-
-## Highlights
-
-- **Samsung PRISM research:** Led dataset development for a spoken-language identification project, coordinating collection and preprocessing for downstream machine-learning work.
-- **Smart Gig:** Built a React and Node.js marketplace connecting freelancers with businesses.
-- **Elite Wristwear:** Founded and operated a Shopify-based e-commerce venture, covering product listings, customer engagement, and social-media marketing.
-- **NDA 151:** A formative experience that strengthened my discipline, resilience, and leadership mindset.
-
-## Technical focus
-
-- **AI and data:** Python, machine learning, NLP, LLMs and RAG, Pandas, Scikit-learn, OpenCV, SQL
-- **Software engineering:** React, Node.js, TypeScript, REST APIs, Git and GitHub
-- **Product delivery:** Research coordination, team leadership, e-commerce, and user-focused development
-
-## Portfolio features
-
-- Responsive, accessible single-page presentation
-- Evidence-led project case studies
-- Downloadable résumé
-- Direct contact, GitHub, and LinkedIn links
-- Optimized static assets for reliable deployment
+Built with the original HTML, CSS, and JavaScript structure. No framework installation, build step, API key, or backend is required. The original Google Fonts, skill icons, and Spotify player use external services.
 
 ## Run locally
 
-Requires Node.js 22.13 or newer.
+With Node.js installed:
 
-```bash
-npm install
+```sh
 npm run dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000).
+Open http://127.0.0.1:5176/. To change the port, run `npm run dev -- --port 5177` or set `PORT`.
 
-## Quality checks
-
-```bash
-npm run lint
-npm run build
+```sh
+npm run check
 ```
 
-## Deployment
+## Edit
 
-The production site is deployed on Vercel:
+- `dist/index.html`: original page structure with Arnav's content, photographs, captions, and links.
+- `dist/style.css` and `dist/portfolio.css`: original design and responsive styles, preserved exactly.
+- `dist/script.js`: original mobile navigation and reveal interactions.
+- `dist/portfolio.js`: original galleries, project shelf, filters, draggable photo board, project dialogs, and email draft form, with Arnav's project and achievement data.
+- `dist/project-data.json`: project summaries for the current catalog and five case studies.
+- `dist/assets/`: optimized copies of the supplied photos and the résumé PDF. The downloadable résumé preserves the original appearance and text; its embedded LinkedIn links and document metadata have been corrected for Arnav.
+- `CONTENT-SOURCES.md`: content provenance and date decisions.
 
-**[portfolio-arnav-tau.vercel.app](https://portfolio-arnav-tau.vercel.app/)**
+Project thumbnail images are portfolio illustrations rather than screenshots. Their descriptions identify them as illustrations. Project detail dialogs describe the work recorded in the résumé; no live demo or source repository was supplied for those projects.
 
-## Contact
+The original contact form prepares a `mailto:` draft to arnavhooda@gmail.com in the visitor's email application. It does not send or save messages. A direct email link is also available.
 
-- [LinkedIn](https://www.linkedin.com/in/arnav-hooda-87061486/)
-- [GitHub](https://github.com/Arnavhooda)
-- [Email](mailto:arnavhooda@gmail.com)
+## Hosting
 
----
+Serve `dist` with any static host. The included `vercel.json` configures a static deployment with no build or install step.
 
-Built by **Arnav Hooda** — AI/ML engineering student, researcher, and product-minded developer.
+For Vercel, import `PRABHMANNAT/Arnav-bro-portfolio` and use the repository root as the Root Directory (`.`), Framework Preset **Other**, and Output Directory **dist**. Keep the Build Command and Install Command disabled as configured in `vercel.json`. No environment variables are required. The static files are committed and ready to serve; `serve.cjs` is only the local preview server. The included `.vercelignore` excludes local test output and dependency folders from CLI uploads.
+
+## Accessibility
+
+Preserves the original skip link, native project dialogs, visible focus states, form validation, mobile menu, keyboard gallery controls, keyboard movement of achievement photos, and reduced motion support.
+
+Two interaction fixes preserve the existing appearance: the project shelf captures a pointer only once a drag starts so card clicks open correctly, and the dialog close button sits above its image header.
+
+The project shelf contains 17 cards. Smart Gig, Virtual Simulation Labs, and DriveSense were removed at the owner’s request. Concept descriptions remain labeled as concepts. The Webstell card reflects the supplied founder and frontend engineer role.
+
+Testimonials use one fictional Bengaluru sample persona and two named draft quotes awaiting approval. The generated reviewer portrait and exact prompt are documented in `IMAGE-GENERATION.md`.

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "ingenium",
+    "name": "Ingenium",
+    "category": "Products",
+    "image": "ingenium-team.jpg",
+    "label": "EdTech venture",
+    "summary": "Learning beyond the classroom. Built with purpose.",
+    "detail": "Ingenium is an education startup incubated with the University of Sydney and TBI Chandigarh University, with deployment in multiple schools. The team secured first prize at ThinkLab Ideathon 2025. The venture brings together product thinking, education and collaborative problem-solving.",
+    "tools": [
+      "EdTech",
+      "Product thinking",
+      "Teamwork"
+    ],
+    "note": "ThinkLab Ideathon team photo from Arnav’s LinkedIn activity."
+  },
+  {
+    "id": "speech",
+    "category": "AI / ML",
+    "name": "Spoken Language Identification",
+    "image": "language-identification.svg",
+    "note": "Original illustration of speech and language research, not model output.",
+    "label": "Samsung PRISM · April 2025–February 2026",
+    "role": "PRISM Project Team Lead",
+    "summary": "Leading dataset development for a spoken Language Identification (LID) system through Samsung PRISM.",
+    "story": [
+      "Led dataset development for a Language Identification system using NLP techniques as a Samsung R&D Institute India PRISM project team leader.",
+      "Managed data collection and preprocessing for machine learning models, coordinating the research work and its data preparation.",
+      "This work focused on the foundation that language systems depend on: carefully prepared data and a team that can move the research forward together."
+    ],
+    "tools": [
+      "NLP",
+      "Machine learning",
+      "Dataset development",
+      "Data preprocessing",
+      "Team leadership"
+    ],
+    "supportImage": "case-speech-spectrogram.jpg",
+    "supportAlt": "A human voice spectrogram showing frequency over time",
+    "supportCredit": "Illustrative human voice spectrogram · Dvortygirl and Mysid · CC BY-SA 3.0",
+    "supportSource": "https://commons.wikimedia.org/wiki/File:Human_voice_spectrogram.jpg"
+  },
+  {
+    "id": "tele",
+    "name": "Tele-Automobile System",
+    "category": "AI / ML",
+    "image": "tele-automobile-system.jpg",
+    "label": "Award-winning research",
+    "summary": "Exploring connected systems through WSN and MATLAB.",
+    "detail": "Research on a real-time Tele-Automobile System using Wireless Sensor Networks and MATLAB. The work received first place in a research paper competition, exploring how connected systems and simulation can address practical engineering questions. Get in touch to discuss the research or request publication details.",
+    "story": [
+      "This publication explores a real-time Tele-Automobile System built around wireless sensor networks and MATLAB-based simulation.",
+      "The research frames the vehicle as part of a connected environment in which sensors, roadside infrastructure and communication links exchange information.",
+      "The project received first place in a research-paper competition. Publication details and the full technical discussion are available on request."
+    ],
+    "supportImage": "case-wireless-network.gif",
+    "supportAlt": "Diagram of an OCARI wireless sensor network topology",
+    "supportSource": "https://commons.wikimedia.org/wiki/File:Topologie_OCARI.gif",
+    "supportCredit": "OCARI wireless sensor topology · Tuan DANG · Public domain",
+    "tools": [
+      "WSN",
+      "MATLAB",
+      "Simulation"
+    ],
+    "note": "Illustration of a connected vehicle communication system."
+  },
+  {
+    "id": "epi",
+    "name": "Mathematical Modelling in Epidemiology",
+    "category": "Research",
+    "image": "epidemiology-modelling.png",
+    "label": "Research publication",
+    "summary": "Using mathematical thinking to explore human impact.",
+    "detail": "This research explores mathematical modelling in epidemiology, connecting analytical thinking with questions about human impact. Get in touch to discuss the work and request the publication details.",
+    "story": [
+      "This publication studies how mathematical models can represent the movement of a population through susceptible, infectious and recovered states.",
+      "The modelling perspective helps turn assumptions about transmission and recovery into equations and curves that can be compared, questioned and refined.",
+      "The project connects analytical reasoning with public-health impact. Publication details and the complete model discussion are available on request."
+    ],
+    "supportImage": "case-sir-model.svg",
+    "supportAlt": "State diagram showing susceptible, infectious and recovered stages in an SIR model",
+    "supportSource": "https://commons.wikimedia.org/wiki/File:Diagram_of_SIR_epidemic_model_states_and_transition_rates.svg",
+    "supportCredit": "SIR state-transition diagram · Arthur Goldberg · CC BY-SA 4.0",
+    "tools": [
+      "Mathematical models",
+      "Research",
+      "Analytics"
+    ],
+    "note": "Mathematical modelling in epidemiology displayed on a research workstation."
+  },
+  {
+    "id": "gnn-aco-routing",
+    "name": "GNN–ACO Hybrid for Multi-Depot Vehicle Route Optimization",
+    "category": "Research",
+    "image": "gnn-aco-route-optimization.png",
+    "label": "Research project",
+    "summary": "Combining graph learning and swarm intelligence for complex route planning.",
+    "detail": "A research project exploring a hybrid Graph Neural Network and Ant Colony Optimization approach for multi-depot vehicle route optimization. The work brings learned graph representations together with search-based optimization to investigate more effective routing decisions across multiple depots.",
+    "story": [
+      "The project explores a hybrid approach to the multi-depot vehicle-routing problem, where customers must be assigned and sequenced across more than one starting depot.",
+      "Graph Neural Networks offer a way to represent relationships between depots, customers and routes, while Ant Colony Optimization provides a search strategy inspired by collective trail formation.",
+      "Bringing the two ideas together creates a framework for investigating route quality, search efficiency and the trade-offs involved in complex distribution networks."
+    ],
+    "supportImage": "case-vehicle-routing.png",
+    "supportAlt": "Diagram illustrating a depot and multiple vehicle routes between customers",
+    "supportSource": "https://commons.wikimedia.org/wiki/File:Figure_illustrating_the_vehicle_routing_problem.png",
+    "supportCredit": "Vehicle-routing problem diagram · PierreSelim · Public domain",
+    "tools": [
+      "Graph Neural Networks",
+      "Ant Colony Optimization",
+      "Vehicle routing"
+    ],
+    "note": "Route-optimization visualization showing depot-to-customer paths."
+  },
+  {
+    "id": "disease-risk-prediction",
+    "name": "Medical Disease Risk Prediction",
+    "category": "Research",
+    "image": "medical-disease-risk-prediction.png",
+    "label": "Machine learning project",
+    "summary": "A machine-learning exploration of diabetes and heart-disease risk indicators using structured health data.",
+    "detail": "A machine-learning project focused on diabetes and heart-disease risk indicators. The work explores how structured health data can be prepared for interpretable inputs, how predictive approaches can be compared, and how early risk signals can be presented responsibly for review rather than diagnosis.",
+    "story": [
+      "This machine-learning project focuses on risk prediction for diabetes and heart disease using structured health indicators.",
+      "The workflow considers how clinical attributes can be prepared for modelling, how predictions should be evaluated, and how results can be communicated without presenting them as a medical diagnosis.",
+      "The interface concept brings risk scores, contributing factors and trends into one view, making the output easier to interpret while keeping clinical context central."
+    ],
+    "supportImage": "case-ecg.svg",
+    "supportAlt": "Diagram of a normal electrocardiogram waveform",
+    "supportSource": "https://commons.wikimedia.org/wiki/File:ECG_Paper.svg",
+    "supportCredit": "ECG diagram · Stannered · Public domain",
+    "tools": [
+      "Data preprocessing",
+      "Predictive modelling",
+      "Evaluation metrics",
+      "Data visualisation"
+    ],
+    "note": "Medical disease-risk prediction dashboard showing diabetes and heart-disease insights."
+  },
+  {
+    "id": "automation",
+    "name": "Operations Automation Studio",
+    "category": "Automation",
+    "image": "operations-automation.png",
+    "label": "Current focus",
+    "summary": "A practical automation initiative for mapping repetitive business work into dependable connected flows.",
+    "detail": "Current work through Arnav’s technology venture and professional internship explores how business handoffs, follow-ups and information gaps can be translated into practical automated systems. The operations concept brings compliance activity, key dates, records and validation steps into one visible workflow so teams can move from scattered follow-ups to measurable progress.",
+    "tools": [
+      "Process mapping",
+      "Automation design",
+      "Requirements analysis",
+      "Workflow optimisation"
+    ],
+    "note": "Operations automation interface supplied by the portfolio owner."
+  },
+  {
+    "id": "elite-wristwear",
+    "category": "Startups",
+    "name": "Elite Wristwear",
+    "image": "elite-wristwear.svg",
+    "note": "Original wristwear brand illustration, not a product photograph.",
+    "label": "Founder · August 2023–May 2024",
+    "role": "Founder & Operator",
+    "summary": "A Shopify wristwear venture built and operated from product listings to customer engagement.",
+    "story": [
+      "Founded and operated an online wristwear business using Shopify, taking responsibility for the storefront and its day-to-day work.",
+      "Managed online sales, product listings, customer engagement, and marketing through social media.",
+      "The venture gave me a practical view of entrepreneurship, customer experience, and the business decisions behind an online store."
+    ],
+    "tools": [
+      "Shopify",
+      "E-commerce",
+      "Customer engagement",
+      "Entrepreneurship"
+    ]
+  }
+]
